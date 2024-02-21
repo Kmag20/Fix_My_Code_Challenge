@@ -2,8 +2,6 @@
 """ FizzBuzz
 """
 import sys
-import json
-
 
 
 def fizzbuzz(n):
@@ -24,9 +22,9 @@ def fizzbuzz(n):
         elif (i % 3) == 0:
             tmp_result.append("Fizz")
         elif (i % 5) == 0:
-            tmp_result.append("buzz")
+            tmp_result.append("Buzz")
         else:
-            tmp_result.append((i))
+            tmp_result.append(str(i))
     print(" ".join(tmp_result))
 
 
